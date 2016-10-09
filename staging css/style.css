@@ -4537,15 +4537,20 @@ a.nice-link:hover:after {
 .search .search-form2 {
     padding: 10px;
     background: #797979;
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
 }
+
+.search .form-group {
+    display: flex;
+}
+
 .search .search-form2 input {
     border: 1px solid #018eb9;
     padding: 10px;
     text-transform: uppercase;
     background: white;
-    width: 124px;
+    width: 100%;
     margin-right: 10px;
     height: 34px;
 }
