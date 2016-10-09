@@ -4552,7 +4552,7 @@ a.nice-link:hover:after {
     padding: 10px;
     text-transform: uppercase;
     background: white;
-
+    width:calc(100% - 47px);
     margin-right: 10px;
     height: 34px;
 }
