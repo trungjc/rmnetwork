@@ -80,13 +80,13 @@
 						et_divi_post_meta();
 
 						if ( 'on' !== et_get_option( 'divi_blog_style', 'false' ) || ( is_search() && ( 'on' === get_post_meta( get_the_ID(), '_et_pb_use_builder', true ) ) ) ) {
-							truncate_post( 100 );
+							truncate_post( 150 );
 						} else {
 							the_content();
 						}
 					?>
 				<?php endif; ?>
-				<a href="<?php the_permalink(); ?>">Continue reading ></a>
+				<a class="more"  href="<?php the_permalink(); ?>">Continue reading ></a>
 					</div>
 					</article> <!-- .et_pb_post -->
 			<?php

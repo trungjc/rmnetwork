@@ -1714,6 +1714,40 @@ body.blog .container,body.new .container {
     border: none;
     color: white;
 }
+.post-excerpt a {
+    display: block;
+}
+.meta-header span a {
+        color: #252525;
+}
+
+.meta-header > span {
+    display: inline-block;
+    line-height: 18px;
+    margin-right: 10px;
+    position: relative;
+}
+.meta-header > span + span::after {
+    background: #252525 none repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 1px;
+}
+.meta-header > span + span {
+    color: #252525;
+    padding-left: 10px;
+}
+.et_pb_post h2 {
+    margin-top: 15px;
+}
+
+.post-excerpt {
+    overflow: hidden;
+}
 
 .serve-logos img {
     padding: 0px 0 25px 0 !important;
