@@ -1706,7 +1706,9 @@ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><
     color: white;
     padding: 0 20px 30px;
 }
-
+body.blog .container,body.new .container {
+    max-width: 1280px;    
+}
 
 .blog-sidebar > .row-fluid-wrapper .sidebar-group li, .blog-sidebar > .row-fluid-wrapper .sidebar-group li a {
     border: none;
