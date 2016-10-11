@@ -1719,7 +1719,7 @@ body.blog .container,body.new .container {
 }
 
 .meta-header {
-
+    margin-left: calc(47% + 30px);
 }
 
 .meta-header span a {
@@ -5232,6 +5232,10 @@ hr {
 
     .et_pb_post .entry-title{
         clear: both;
+    }
+
+    .meta-header {
+        margin-left: auto;
     }
 }
 
