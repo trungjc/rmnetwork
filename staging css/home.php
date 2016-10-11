@@ -23,9 +23,11 @@
 </div>
 	<div class="container">
 		<div id="content-area" class="clearfix ">
-			<h1 class="center">EXPERTS SOLVING INDUSTRY PUZZLES</h1>
-			<p style="margin-bottom:30px;"  class="center"> RMG blogs are developed to communicate a variety of industry challenges keeping readers informed and up to date with relevant tips, best practices, and solutions that work.</p>
-			<div id="left-area">
+			<div class="top-blog">
+				<h1 class="center">EXPERTS SOLVING INDUSTRY PUZZLES</h1>
+				<p style="margin-bottom:30px;"  class="center"> RMG blogs are developed to communicate a variety of industry challenges keeping readers informed and up to date with relevant tips, best practices, and solutions that work.</p>
+			</div>
+		<div id="left-area">
 		<?php
 			if ( have_posts() ) :
 				while ( have_posts() ) : the_post();

@@ -1746,6 +1746,11 @@ body.blog .container,body.new .container {
     color: #252525;
     padding-left: 10px;
 }
+
+.top-blog {
+    margin: 0 100px;
+}
+
 .et_pb_post h2 {
     margin-top: 15px;
 }
@@ -2311,6 +2316,11 @@ full page*/
 }
 
 .blog-banner-herro {
+    height: 500px;
+    background: url(Asset/images/blog-header-image.jpg) no-repeat center / cover;
+}
+
+body.archive .blog-banner-herro {
     height: 500px;
     background: url(Asset/images/news-header.jpg) no-repeat center / cover;
 }
@@ -5766,8 +5776,6 @@ hr {
 
 @media (max-width:767px) {
 
-
-
     .homepage-footer .et_always_center_on_mobile {
         text-align: left !important;
     }
@@ -6389,6 +6397,10 @@ hr {
 
     .section-key-benefits .et_pb_row.et_pb_row_3 {
         padding-top: 0px !important;
+    }
+
+    .top-blog {
+        margin: 0 ;
     }
 }
 
