@@ -1717,6 +1717,11 @@ body.blog .container,body.new .container {
 .post-excerpt a {
     display: block;
 }
+
+.meta-header {
+
+}
+
 .meta-header span a {
         color: #252525;
 }
@@ -4610,7 +4615,7 @@ a.nice-link:hover:after {
     font-weight: 400;
 }
 .post-image {
-    width: 383px;
+    width: 48%;
     height: 208px;
     overflow:hidden;
     margin-top: 0;
